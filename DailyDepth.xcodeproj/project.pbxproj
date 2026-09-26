@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200000000000000000000000 /* DailyDepth/DailyDepthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000000 /* DailyDepth/DailyDepthApp.swift */; };
+		200000000000000000000001 /* DailyDepth/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* DailyDepth/Models.swift */; };
+		200000000000000000000002 /* DailyDepth/Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* DailyDepth/Reminders.swift */; };
+		200000000000000000000003 /* DailyDepth/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* DailyDepth/RootView.swift */; };
+		200000000000000000000004 /* DailyDepth/Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* DailyDepth/Discovery.swift */; };
+		200000000000000000000005 /* DailyDepth/ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* DailyDepth/ReaderView.swift */; };
+		200000000000000000000006 /* DailyDepth/Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* DailyDepth/Session.swift */; };
+		500000000000000000000002 /* DailyDepth/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500000000000000000000001 /* DailyDepth/Assets.xcassets */; };
+		600000000000000000000002 /* DailyDepth/Reader/Readability.js in Resources */ = {isa = PBXBuildFile; fileRef = 600000000000000000000001 /* DailyDepth/Reader/Readability.js */; };
+		700000000000000000000006 /* DailyDepthWidgets/DailyDepthWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700000000000000000000005 /* DailyDepthWidgets/DailyDepthWidgets.swift */; };
+		700000000000000000000007 /* DailyDepth/Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* DailyDepth/Session.swift */; };
+		720000000000000000000004 /* DailyDepthWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 700000000000000000000002 /* DailyDepthWidgets.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A20000000000000000000000 = {isa = PBXBuildFile; fileRef = A10000000000000000000000; };
+		A20000000000000000000001 = {isa = PBXBuildFile; fileRef = A10000000000000000000001; };
+		A20000000000000000000002 = {isa = PBXBuildFile; fileRef = A10000000000000000000002; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		720000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700000000000000000000001;
+			remoteInfo = DailyDepthWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		720000000000000000000003 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				720000000000000000000004 /* DailyDepthWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000005 /* Daily Depth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Depth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000000 /* DailyDepth/DailyDepthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/DailyDepthApp.swift; sourceTree = "<group>"; };
+		100000000000000000000001 /* DailyDepth/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/Models.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* DailyDepth/Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/Reminders.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* DailyDepth/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/RootView.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* DailyDepth/Discovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/Discovery.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* DailyDepth/ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/ReaderView.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* DailyDepth/Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/Session.swift; sourceTree = "<group>"; };
+		500000000000000000000001 /* DailyDepth/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DailyDepth/Assets.xcassets; sourceTree = "<group>"; };
+		600000000000000000000001 /* DailyDepth/Reader/Readability.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DailyDepth/Reader/Readability.js; sourceTree = "<group>"; };
+		700000000000000000000002 /* DailyDepthWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyDepthWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		700000000000000000000005 /* DailyDepthWidgets/DailyDepthWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepthWidgets/DailyDepthWidgets.swift; sourceTree = "<group>"; };
+		A10000000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/LearningContent.swift; sourceTree = "<group>"; };
+		A10000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/EditorialPolicy.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDepth/LearningViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000002,
+				A10000000000000000000001,
+				A10000000000000000000000,
+				100000000000000000000000 /* DailyDepth/DailyDepthApp.swift */,
+				100000000000000000000001 /* DailyDepth/Models.swift */,
+				100000000000000000000002 /* DailyDepth/Reminders.swift */,
+				100000000000000000000003 /* DailyDepth/RootView.swift */,
+				100000000000000000000004 /* DailyDepth/Discovery.swift */,
+				100000000000000000000005 /* DailyDepth/ReaderView.swift */,
+				100000000000000000000006 /* DailyDepth/Session.swift */,
+				500000000000000000000001 /* DailyDepth/Assets.xcassets */,
+				000000000000000000000004 /* Products */,
+				600000000000000000000001 /* DailyDepth/Reader/Readability.js */,
+				700000000000000000000005 /* DailyDepthWidgets/DailyDepthWidgets.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* Daily Depth.app */,
+				700000000000000000000002 /* DailyDepthWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000002 /* DailyDepth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000010 /* Build configuration list for PBXNativeTarget "DailyDepth" */;
+			buildPhases = (
+				000000000000000000000006 /* Sources */,
+				000000000000000000000007 /* Frameworks */,
+				000000000000000000000008 /* Resources */,
+				720000000000000000000003 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = DailyDepth;
+			productName = "Daily Depth";
+			productReference = 000000000000000000000005 /* Daily Depth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700000000000000000000001 /* DailyDepthWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700000000000000000000004 /* Build configuration list for PBXNativeTarget "DailyDepthWidgets" */;
+			buildPhases = (
+				700000000000000000000003 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyDepthWidgets;
+			productName = DailyDepthWidgets;
+			productReference = 700000000000000000000002 /* DailyDepthWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 000000000000000000000009 /* Build configuration list for PBXProject "DailyDepth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000003;
+			productRefGroup = 000000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000002 /* DailyDepth */,
+				700000000000000000000001 /* DailyDepthWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500000000000000000000002 /* DailyDepth/Assets.xcassets in Resources */,
+				600000000000000000000002 /* DailyDepth/Reader/Readability.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000000 /* DailyDepth/DailyDepthApp.swift in Sources */,
+				200000000000000000000001 /* DailyDepth/Models.swift in Sources */,
+				200000000000000000000002 /* DailyDepth/Reminders.swift in Sources */,
+				200000000000000000000003 /* DailyDepth/RootView.swift in Sources */,
+				200000000000000000000004 /* DailyDepth/Discovery.swift in Sources */,
+				200000000000000000000005 /* DailyDepth/ReaderView.swift in Sources */,
+				200000000000000000000006 /* DailyDepth/Session.swift in Sources */,
+				A20000000000000000000002,
+				A20000000000000000000001,
+				A20000000000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700000000000000000000006 /* DailyDepthWidgets/DailyDepthWidgets.swift in Sources */,
+				700000000000000000000007 /* DailyDepth/Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		720000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 700000000000000000000001 /* DailyDepthWidgets */;
+			targetProxy = 720000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		300000000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		300000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		400000000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DailyDepth/DailyDepth.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = DailyDepth/iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8DP4PG5DD;
+				ENABLE_APP_SANDBOX = YES;
+				"ENABLE_APP_SANDBOX[sdk=iphone*]" = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyDepth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Depth";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacbello.dailydepth;
+				PRODUCT_NAME = "Daily Depth";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		400000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DailyDepth/DailyDepth.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = DailyDepth/iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8DP4PG5DD;
+				ENABLE_APP_SANDBOX = YES;
+				"ENABLE_APP_SANDBOX[sdk=iphone*]" = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyDepth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Depth";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacbello.dailydepth;
+				PRODUCT_NAME = "Daily Depth";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		710000000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = DailyDepthWidgets/Widgets.entitlements;
+				DEVELOPMENT_TEAM = C8DP4PG5DD;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyDepthWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacbello.dailydepth.widgets;
+				PRODUCT_NAME = DailyDepthWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		710000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = DailyDepthWidgets/Widgets.entitlements;
+				DEVELOPMENT_TEAM = C8DP4PG5DD;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyDepthWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacbello.dailydepth.widgets;
+				PRODUCT_NAME = DailyDepthWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000009 /* Build configuration list for PBXProject "DailyDepth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300000000000000000000000 /* Debug */,
+				300000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000010 /* Build configuration list for PBXNativeTarget "DailyDepth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400000000000000000000000 /* Debug */,
+				400000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700000000000000000000004 /* Build configuration list for PBXNativeTarget "DailyDepthWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710000000000000000000000 /* Debug */,
+				710000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}

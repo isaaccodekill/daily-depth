@@ -1,0 +1,23 @@
+# macOS and Xcode state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+*.xcarchive/
+*.ipa
+*.app/
+*.dSYM/
+TestFlight/Archives/
+# Local secrets, runtime data, dependencies, and check output
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.sqlite*
+*.log
+node_modules/
+.check-output/
